@@ -1,0 +1,21 @@
+﻿#leftPanel {
+    float: left;
+    clear: left;
+    width: 70%;
+}
+
+#listContainer {
+    float: left;
+    clear: right;
+    width: 30%;
+}
+
+g.slice text {
+    font: bold 1em 'Courier New';
+    text-transform:capitalize;
+}
+
+svg {
+    padding-top: 100px;
+
+}
