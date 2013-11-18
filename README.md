@@ -6,7 +6,7 @@ Spin the wheel.
 A random number generator will determine which slice of the spinner is selected. At work we use this to determine where to go for lunch.
 
 working example here:
-http://jdahldesign.com/spinner/spinner.html
+[Spin-o-Rama](http://jdahldesign.com/spinner/spinner.html)
 
 Dependencies:
 -------------------------
