@@ -1,10 +1,12 @@
 var Spinner = function(el, cfg) {
-    var running = true;
+    var running = false;
     var vis, arc, arcs, pie, path, text;
     var boundaries = [];
     var element = el;
     var deg = 0;
     var PI = 3.14159;
+    
+    // provide default config values
     var config = {
         margins: { 
             top: (cfg !== undefined && "margins" in cfg && "top" in cfg.margins) ? cfg.margins["top"] : 50,
@@ -127,7 +129,7 @@ var Spinner = function(el, cfg) {
     var spin = function(degrees, duration) {
         running = !running;    
         
-        if (running) { spin(); }
+        if (!running) { spin(); }
         
         deg = degrees || Math.floor( (Math.random() * config.maxRotation) + config.minRotation);
         duration = (duration !== undefined) ? duration : (deg*500)/360;
