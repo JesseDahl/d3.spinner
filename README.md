@@ -43,3 +43,8 @@ provide new values as an array
 
 
 That's pretty much it, ezpz.
+
+-------------------------------
+Here is a semi-working example. The wheel spins, you can add items to it. It just doesn't save anything to the server because my AWS account isn't free anymore and I haven't figured out what I want to do with my site yet.
+
+http://jessedahl.com/#/spinner
