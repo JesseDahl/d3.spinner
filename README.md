@@ -23,6 +23,7 @@ using a simple array.
 
 
 **Spin the Wheel**
+
 call the .spin method.
 
     foo.spin();
@@ -35,6 +36,7 @@ selection - which item the pointer will be pointing at
 
 
 **Update the wheel**
+
 call the .update(newData) method
 
     foo.update(["hi", "hello", "hey"]);
@@ -45,6 +47,6 @@ provide new values as an array
 That's pretty much it, ezpz.
 
 -------------------------------
-Here is a semi-working example. The wheel spins, you can add items to it. It just doesn't save anything to the server because my AWS account isn't free anymore and I haven't figured out what I want to do with my site yet.
+Here is a working example. The wheel spins, you can add items to it, and you can save the list to the server.
 
 http://jessedahl.com/#/spinner
